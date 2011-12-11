@@ -1,0 +1,6 @@
+name = Project Abaq
+description = Secret
+core = 7.x
+dependencies[] = ctools
+files[] = abaq.test
+configure = admin/config/system/abaq

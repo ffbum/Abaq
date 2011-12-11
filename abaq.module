@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Project Abaq
+ */
+ 
+/**
+ * Implements hook_menu.
+ */
+function abaq_menu() {
+  $items['abaq/test'] = array(
+    'page callback' => 'abaq_test_page',
+    'type' => MENU_NORMAL_ITEM,
+  );
+  return $items;
+}
